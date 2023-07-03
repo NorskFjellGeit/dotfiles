@@ -1,2 +1,4 @@
-# dotfiles
-My dotfiles for Hyprland, Waybar, Wofi etc.
+# My precious dotfiles
+
+The directories are ment to be symlinked from ~/.config.
+Loose files should be copied (or symlinked) from ~/.

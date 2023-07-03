@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/bash
 killall hyprpaper
-hyprpaper &
+hyprpaper

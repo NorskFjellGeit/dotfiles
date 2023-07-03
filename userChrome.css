@@ -1,0 +1,59 @@
+/* Some modifications for my small-screen laptop.
+ * Hide clutter, remove padding etc.
+ */
+
+/* Adjust tree-style tab sidebar
+ * TODO: decrease tab height/padding
+ */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+
+#sidebar {
+    padding: 0px !important;
+    margin: 0px !important;
+    min-width: 0px !important;
+}
+
+#sidebar-header {
+    display: none !important;
+}
+
+#TabsToolbar {
+    display: none !important;
+    visibility: collapse !important;
+}
+
+.sidebar-splitter {
+    width: 1px !important;
+}
+
+#nav-bar {
+    margin: 0px !important;
+    padding: 0px !important;
+    border-top: none !important;
+    background-color: none !important;
+    background-image: none !important;
+}
+
+#nav-bar toolbarbutton {
+    --toolbarbutton-inner-padding: 4px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#urlbar {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#urlbar, #urlbar-container, .searchbar-textbox {
+    margin: 0px !important;
+    padding: 0px !important;
+    min-height: 20px !important;
+}
+
+/* hack for vim-vixen showing a white block on the bottom */
+.vimvixen-console-frame {
+  color-scheme: light !important;
+}
